@@ -1,14 +1,15 @@
-import React, {useState} from 'react';
-import BaiTap1 from './src/BaiTap/BaiTap1';
-import BaiTap2 from './src/BaiTap/BaiTap2';
-import BaiTap3 from './src/BaiTap/BaiTap3';
-import BindingData from './src/ComponentHandlers/BindingData';
-import DemoImage from './src/Components/DemoImage';
-import DemoStyle from './src/Components/DemoStyle';
-import DemoTextInput from './src/Components/DemoTextInput';
-import DemoTouchable from './src/Components/DemoTouchable';
-import Stateful from './src/Components/Stateful';
-import Stateless from './src/Components/Stateless';
+import React from 'react';
+// import BaiTap1 from './src/BaiTap/BaiTap1';
+// import BaiTap2 from './src/BaiTap/BaiTap2';
+// import BaiTap3 from './src/BaiTap/BaiTap3';
+import BaiTap4 from './src/BaiTap/BaiTap4';
+// import BindingData from './src/ComponentHandlers/BindingData';
+// import DemoImage from './src/Components/DemoImage';
+// import DemoStyle from './src/Components/DemoStyle';
+// import DemoTextInput from './src/Components/DemoTextInput';
+// import DemoTouchable from './src/Components/DemoTouchable';
+// import Stateful from './src/Components/Stateful';
+// import Stateless from './src/Components/Stateless';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       <DemoStyle /> */}
       {/* <DemoTouchable /> */}
       {/* <BindingData /> */}
-      <BaiTap3 />
+      {/* <BaiTap3 /> */}
+      <BaiTap4 />
     </>
   );
 };
